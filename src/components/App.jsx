@@ -2,30 +2,30 @@ import css from './App.module.css';
 
 export const App = () => {
   return (
-    <div className={css.PC__page}>
-      <form className={css.PC__form}>
+    <div className={css.pc__page}>
+      <form className={css.pc__form}>
         <h1>Delivery Order Price Calculator</h1>
         <h2>Details</h2>
-        <label className={css.PC__label}>
+        <label className={css.pc__label}>
           Venue slug
-          <input className={css.PC__input}></input>
+          <input className={css.pc__input}></input>
         </label>
-        <label className={css.PC__label}>
+        <label className={css.pc__label}>
           Cart value (EUR)
-          <input className={css.PC__input} />
+          <input className={css.pc__input} />
         </label>
-        <label className={css.PC__label}>
+        <label className={css.pc__label}>
           User latitude
-          <input className={css.PC__input} />
+          <input className={css.pc__input} />
         </label>
-        <label className={css.PC__label}>
+        <label className={css.pc__label}>
           User longitude
-          <input className={css.PC__input} />
+          <input className={css.pc__input} />
         </label>
-        <button className={css.PC__button} type="submit">
+        <button className={css.pc__button} type="submit">
           Get location
         </button>
-        <button className={css.PC__button} type="submit">
+        <button className={css.pc__button} type="submit">
           Calculate delivery price
         </button>
         <ul>

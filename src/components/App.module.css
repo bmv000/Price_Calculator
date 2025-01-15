@@ -1,19 +1,16 @@
-.PC__page {
+.pc__page {
     padding: 15px 50px;
-    /*background-image: linear-gradient(to right, rgba(76, 61, 111, 0.578), rgba(9, 188, 238, 0.594)),
-      url('./imageLogIn.jpg');
-      height: 550px;
-      */
+    
       margin-left: auto;
     margin-right: auto;
    max-width: 600px;
 }
-.PC__form{
+.pc__form{
   display: flex;
   flex-direction: column;
   gap: 20px;  
 }
-.PC__label{
+.pc__label{
     display: flex;
   flex-direction: column;
 
@@ -23,7 +20,7 @@
     
  
 }
-.PC__input{
+.pc__input{
       padding: 15px;
   font-size: 24px;
   border: none;
@@ -32,7 +29,7 @@
   border-radius: 20px;
     color: rgb(255, 145, 0);
 }
-.PC__button{
+.pc__button{
     width: 350px;
   padding: 16px;
   border: none;
@@ -43,8 +40,8 @@
   cursor: pointer;
   border-radius: 50px;  
 }
-.PC__button:hover,
-.PC__button:focus {
+.pc__button:hover,
+.pc__button:focus {
   background-color: #767ada;
    color: white;
 }
